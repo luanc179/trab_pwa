@@ -1,0 +1,113 @@
+﻿@*@page "/atleta_alterar/{Id}"*@
+@using CadastroAtletasWasm.Helpers;
+@using CadastroAtletaDll.DOs;
+@inject NavigationManager NavigationManager
+
+<hr />
+<h3>Recordes</h3>
+
+@if (objetos == null)
+{
+    <p><em>Carregando...</em></p>
+}
+else
+{
+    <EditForm Model="@novoRecord" OnValidSubmit="@Inserir">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+        <div class="row">
+            <div class="col">
+                <label class="form-label">Descrição</label>
+                <input class="form-control" @bind="@novoRecord.Descricao" />
+                <ValidationMessage For="() => novoRecord.Descricao" />
+            </div>
+            <div class="col">
+                <label class="form-label">Data</label>
+                <input type="date" class="form-control" @bind="@novoRecord.Data" />
+                <ValidationMessage For="() => novoRecord.Data" />
+            </div>
+            <div class="col">
+                <br />
+                <button class="btn btn-success mt-2" type="submit">Inserir</button>
+            </div>
+        </div>
+    </EditForm>
+
+    <EditForm Model="@novoRecord" OnValidSubmit="@Atualizar">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Descrição</th>
+                    <th>Data</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var obj in objetos)
+                {
+                    <tr>
+                        <td>@obj.Descricao</td>
+                        <td>@obj.Data.ToShortDateString()</td>
+                        <td>
+                            @if (obj.Id != null)
+                            {
+                                <button class="btn btn-danger" @onclick="() => ExcluirDetalhe(obj.Id)">
+                                    Excluir
+                                </button>
+                            }
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </EditForm>
+    <hr />
+}
+
+@code {
+    protected async override Task OnInitializedAsync()
+    {        
+        objetos = await api.RetornarPorIdMestreAsync(IdMestre);
+    }
+
+    private AcessoApi<AtletaRecordDO> api = new AcessoApi<AtletaRecordDO>("api/AtletaRecord");
+
+    private IList<AtletaRecordDO>? objetos = null;
+
+    public AtletaRecordDO novoRecord = new AtletaRecordDO { Data = DateTime.Now.Date };
+
+    [Parameter]
+    public string IdMestre { get; set; } = "";
+
+    private async void Atualizar()
+    {
+        //NavigationManager.NavigateTo("atletas");
+        //NavigationManager.NavigateTo($"atleta_alterar/{IdMestre}", true);
+        objetos = await api.RetornarPorIdMestreAsync(IdMestre);
+
+        this.StateHasChanged();
+    }
+
+    private async void Inserir()
+    {
+        novoRecord.IdAtleta = IdMestre;
+
+        await api.InserirAsync(novoRecord);
+
+        objetos = await api.RetornarPorIdMestreAsync(IdMestre);
+
+        novoRecord = new AtletaRecordDO { Data = DateTime.Now.Date };
+
+        this.StateHasChanged();
+    }
+
+    private async void ExcluirDetalhe(string id)
+    {
+        if (id != null)
+        {
+            await api.ExcluirAsync(id);
+
+            Atualizar();
+        }
+    }
+}
