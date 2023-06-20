@@ -50,7 +50,7 @@ namespace CadastroAtletaApi.DAOs
         public virtual async Task<IList<T>> RetornarPorIdMestreAsync(string idMestre)
         {
             if (NomeCampoIdMestre == null)
-                throw new Exception("Não foi definido (sobreposto) o nome do campo IdMestre");
+                throw new Exception("Nï¿½o foi definido (sobreposto) o nome do campo IdMestre");
 
             return await ExecutarConsultaAsync($"SELECT * FROM {Tabela} where {NomeCampoIdMestre} = @IdMestre", new { IdMestre = idMestre});
         }

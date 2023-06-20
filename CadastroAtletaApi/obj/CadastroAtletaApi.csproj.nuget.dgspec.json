@@ -1,0 +1,151 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\ADS\\3º PERIODO\\PWA\\2 Bimestre\\trabalho\\trab_pwa\\CadastroAtletaApi\\CadastroAtletaApi.csproj": {}
+  },
+  "projects": {
+    "D:\\ADS\\3º PERIODO\\PWA\\2 Bimestre\\trabalho\\trab_pwa\\CadastroAtletaApi\\CadastroAtletaApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ADS\\3º PERIODO\\PWA\\2 Bimestre\\trabalho\\trab_pwa\\CadastroAtletaApi\\CadastroAtletaApi.csproj",
+        "projectName": "CadastroAtletaApi",
+        "projectPath": "D:\\ADS\\3º PERIODO\\PWA\\2 Bimestre\\trabalho\\trab_pwa\\CadastroAtletaApi\\CadastroAtletaApi.csproj",
+        "packagesPath": "C:\\Users\\luanc\\.nuget\\packages\\",
+        "outputPath": "D:\\ADS\\3º PERIODO\\PWA\\2 Bimestre\\trabalho\\trab_pwa\\CadastroAtletaApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\luanc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\ADS\\3º PERIODO\\PWA\\2 Bimestre\\trabalho\\trab_pwa\\CadastroAtletaDll\\CadastroAtletaDll.csproj": {
+                "projectPath": "D:\\ADS\\3º PERIODO\\PWA\\2 Bimestre\\trabalho\\trab_pwa\\CadastroAtletaDll\\CadastroAtletaDll.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "MySQL.Data": {
+              "target": "Package",
+              "version": "[8.0.33, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ADS\\3º PERIODO\\PWA\\2 Bimestre\\trabalho\\trab_pwa\\CadastroAtletaDll\\CadastroAtletaDll.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ADS\\3º PERIODO\\PWA\\2 Bimestre\\trabalho\\trab_pwa\\CadastroAtletaDll\\CadastroAtletaDll.csproj",
+        "projectName": "CadastroAtletaDll",
+        "projectPath": "D:\\ADS\\3º PERIODO\\PWA\\2 Bimestre\\trabalho\\trab_pwa\\CadastroAtletaDll\\CadastroAtletaDll.csproj",
+        "packagesPath": "C:\\Users\\luanc\\.nuget\\packages\\",
+        "outputPath": "D:\\ADS\\3º PERIODO\\PWA\\2 Bimestre\\trabalho\\trab_pwa\\CadastroAtletaDll\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\luanc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
