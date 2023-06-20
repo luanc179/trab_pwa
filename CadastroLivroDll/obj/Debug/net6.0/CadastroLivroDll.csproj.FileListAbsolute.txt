@@ -1,0 +1,12 @@
+D:\ADS\3º PERIODO\PWA\2 Bimestre\trabalho\trab_pwa\CadastroLivroDll\bin\Debug\net6.0\CadastroLivroDll.deps.json
+D:\ADS\3º PERIODO\PWA\2 Bimestre\trabalho\trab_pwa\CadastroLivroDll\bin\Debug\net6.0\CadastroLivroDll.dll
+D:\ADS\3º PERIODO\PWA\2 Bimestre\trabalho\trab_pwa\CadastroLivroDll\bin\Debug\net6.0\CadastroLivroDll.pdb
+D:\ADS\3º PERIODO\PWA\2 Bimestre\trabalho\trab_pwa\CadastroLivroDll\obj\Debug\net6.0\CadastroLivroDll.csproj.AssemblyReference.cache
+D:\ADS\3º PERIODO\PWA\2 Bimestre\trabalho\trab_pwa\CadastroLivroDll\obj\Debug\net6.0\CadastroLivroDll.GeneratedMSBuildEditorConfig.editorconfig
+D:\ADS\3º PERIODO\PWA\2 Bimestre\trabalho\trab_pwa\CadastroLivroDll\obj\Debug\net6.0\CadastroLivroDll.AssemblyInfoInputs.cache
+D:\ADS\3º PERIODO\PWA\2 Bimestre\trabalho\trab_pwa\CadastroLivroDll\obj\Debug\net6.0\CadastroLivroDll.AssemblyInfo.cs
+D:\ADS\3º PERIODO\PWA\2 Bimestre\trabalho\trab_pwa\CadastroLivroDll\obj\Debug\net6.0\CadastroLivroDll.csproj.CoreCompileInputs.cache
+D:\ADS\3º PERIODO\PWA\2 Bimestre\trabalho\trab_pwa\CadastroLivroDll\obj\Debug\net6.0\CadastroLivroDll.dll
+D:\ADS\3º PERIODO\PWA\2 Bimestre\trabalho\trab_pwa\CadastroLivroDll\obj\Debug\net6.0\refint\CadastroLivroDll.dll
+D:\ADS\3º PERIODO\PWA\2 Bimestre\trabalho\trab_pwa\CadastroLivroDll\obj\Debug\net6.0\CadastroLivroDll.pdb
+D:\ADS\3º PERIODO\PWA\2 Bimestre\trabalho\trab_pwa\CadastroLivroDll\obj\Debug\net6.0\ref\CadastroLivroDll.dll

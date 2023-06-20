@@ -1,0 +1,45 @@
+﻿@page "/livro_incluir"
+@using CadastroLivrosWasm.Helpers;
+@using CadastroLivroDll.DOs;
+@inject NavigationManager NavigationManager
+
+<PageTitle>Cadastro de Livros</PageTitle>
+
+<h1>Incluindo Livro</h1>
+
+<div>
+    <div>
+        <label class="form-label">Nome</label>
+        <input class="form-control" @bind="@obj.Nome" />
+    </div>
+    <div>
+        <label class="form-label">Autor</label>
+        <input class="form-control" @bind="@obj.Autor" />
+    </div>
+    <div>
+        <label class="form-label">Genero</label>
+        <input class="form-control" @bind="@obj.Genero" />
+    </div>
+    <div class="mt-2">
+        <button class="btn btn-success" @onclick="Gravar">Gravar</button>
+        <a class="ml-1 btn btn-secondary" href="./livros">Voltar</a>
+    </div>
+    
+</div>
+    
+@code {
+    private AcessoApi<LivroDO> api = new AcessoApi<LivroDO>("api/livro");
+
+    private LivroDO obj = new LivroDO();
+
+    [Parameter]
+    public string Id { get; set; } = "";
+
+    private async void Gravar()
+    {
+        var objRetorno = await api.InserirAsync(obj);
+        
+        if (objRetorno != null)
+            NavigationManager.NavigateTo($"livro_alterar/{objRetorno.Id}");
+    }
+}

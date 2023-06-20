@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadastroLivroApi", "CadastroLivroApi\CadastroLivroApi.csproj", "{EA116803-BC11-4E56-8ED0-EF304C6EA7D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadastroLivroWasm", "CadastroLivroWasm\CadastroLivroWasm.csproj", "{1E1A38C4-C954-4A53-90AE-741E865A52B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadastroLivroDll", "CadastroLivroDll\CadastroLivroDll.csproj", "{DA297A27-6197-449F-A0F2-B6EDFEEB621D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA116803-BC11-4E56-8ED0-EF304C6EA7D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA116803-BC11-4E56-8ED0-EF304C6EA7D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA116803-BC11-4E56-8ED0-EF304C6EA7D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA116803-BC11-4E56-8ED0-EF304C6EA7D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E1A38C4-C954-4A53-90AE-741E865A52B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E1A38C4-C954-4A53-90AE-741E865A52B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E1A38C4-C954-4A53-90AE-741E865A52B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E1A38C4-C954-4A53-90AE-741E865A52B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA297A27-6197-449F-A0F2-B6EDFEEB621D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA297A27-6197-449F-A0F2-B6EDFEEB621D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA297A27-6197-449F-A0F2-B6EDFEEB621D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA297A27-6197-449F-A0F2-B6EDFEEB621D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
