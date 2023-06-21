@@ -9,38 +9,38 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": 1366002268,
+        "HashCode": -316843752,
         "Kind": "Components.Component",
-        "Name": "CadastroLivroWasm.Pages.Dashboard",
+        "Name": "CadastroLivroWasm.App",
         "AssemblyName": "CadastroLivroWasm",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Dashboard"
+            "TagName": "App"
           }
         ],
         "Metadata": {
-          "Common.TypeName": "CadastroLivroWasm.Pages.Dashboard",
-          "Common.TypeNameIdentifier": "Dashboard",
-          "Common.TypeNamespace": "CadastroLivroWasm.Pages",
+          "Common.TypeName": "CadastroLivroWasm.App",
+          "Common.TypeNameIdentifier": "App",
+          "Common.TypeNamespace": "CadastroLivroWasm",
           "Runtime.Name": "Components.IComponent"
         }
       },
       {
-        "HashCode": 1111651341,
+        "HashCode": -653208160,
         "Kind": "Components.Component",
-        "Name": "CadastroLivroWasm.Pages.Dashboard",
+        "Name": "CadastroLivroWasm.App",
         "AssemblyName": "CadastroLivroWasm",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "CadastroLivroWasm.Pages.Dashboard"
+            "TagName": "CadastroLivroWasm.App"
           }
         ],
         "Metadata": {
-          "Common.TypeName": "CadastroLivroWasm.Pages.Dashboard",
-          "Common.TypeNameIdentifier": "Dashboard",
-          "Common.TypeNamespace": "CadastroLivroWasm.Pages",
+          "Common.TypeName": "CadastroLivroWasm.App",
+          "Common.TypeNameIdentifier": "App",
+          "Common.TypeNamespace": "CadastroLivroWasm",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
         }
@@ -448,38 +448,38 @@
         }
       },
       {
-        "HashCode": -316843752,
+        "HashCode": 1366002268,
         "Kind": "Components.Component",
-        "Name": "CadastroLivroWasm.App",
+        "Name": "CadastroLivroWasm.Pages.Dashboard",
         "AssemblyName": "CadastroLivroWasm",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "App"
+            "TagName": "Dashboard"
           }
         ],
         "Metadata": {
-          "Common.TypeName": "CadastroLivroWasm.App",
-          "Common.TypeNameIdentifier": "App",
-          "Common.TypeNamespace": "CadastroLivroWasm",
+          "Common.TypeName": "CadastroLivroWasm.Pages.Dashboard",
+          "Common.TypeNameIdentifier": "Dashboard",
+          "Common.TypeNamespace": "CadastroLivroWasm.Pages",
           "Runtime.Name": "Components.IComponent"
         }
       },
       {
-        "HashCode": -653208160,
+        "HashCode": 1111651341,
         "Kind": "Components.Component",
-        "Name": "CadastroLivroWasm.App",
+        "Name": "CadastroLivroWasm.Pages.Dashboard",
         "AssemblyName": "CadastroLivroWasm",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "CadastroLivroWasm.App"
+            "TagName": "CadastroLivroWasm.Pages.Dashboard"
           }
         ],
         "Metadata": {
-          "Common.TypeName": "CadastroLivroWasm.App",
-          "Common.TypeNameIdentifier": "App",
-          "Common.TypeNamespace": "CadastroLivroWasm",
+          "Common.TypeName": "CadastroLivroWasm.Pages.Dashboard",
+          "Common.TypeNameIdentifier": "Dashboard",
+          "Common.TypeNamespace": "CadastroLivroWasm.Pages",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
         }
