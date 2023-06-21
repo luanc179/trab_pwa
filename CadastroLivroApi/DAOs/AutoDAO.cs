@@ -14,7 +14,7 @@ namespace CadastroLivroApi.DAOs
     {
         protected abstract string Tabela { get; }
 
-        protected virtual string? NomeCampoIdMestre { get; } = null;
+        protected virtual string? TituloCampoIdMestre { get; } = null;
 
         public virtual async Task InserirAsync(T obj)
         {
@@ -49,10 +49,10 @@ namespace CadastroLivroApi.DAOs
         
         public virtual async Task<IList<T>> RetornarPorIdMestreAsync(string idMestre)
         {
-            if (NomeCampoIdMestre == null)
-                throw new Exception("N�o foi definido (sobreposto) o nome do campo IdMestre");
+            if (TituloCampoIdMestre == null)
+                throw new Exception("N�o foi definido (sobreposto) o titulo do campo IdMestre");
 
-            return await ExecutarConsultaAsync($"SELECT * FROM {Tabela} where {NomeCampoIdMestre} = @IdMestre", new { IdMestre = idMestre});
+            return await ExecutarConsultaAsync($"SELECT * FROM {Tabela} where {TituloCampoIdMestre} = @IdMestre", new { IdMestre = idMestre});
         }
 
         public virtual async Task<T?> RetornarPorIdAsync(string id)
@@ -154,7 +154,7 @@ namespace CadastroLivroApi.DAOs
 
         private string[] GetPropriedades()
         {
-            if (nomesPropriedades == null)
+            if (titulosPropriedades == null)
             {            
                 var tipo = typeof(T);
 
@@ -164,13 +164,13 @@ namespace CadastroLivroApi.DAOs
                     if (!prop.PropertyType.IsSubclassOf(typeof(BaseModel)) && !prop.PropertyType.IsAssignableFrom(typeof(System.Collections.IEnumerable)))
                         lista.Add(prop.Name);
 
-                nomesPropriedades = lista.ToArray();
+                titulosPropriedades = lista.ToArray();
             }
 
-            return nomesPropriedades;
+            return titulosPropriedades;
         }
 
-        private static string[]? nomesPropriedades;
+        private static string[]? titulosPropriedades;
 
         private string RetornarConnectionString()
         {

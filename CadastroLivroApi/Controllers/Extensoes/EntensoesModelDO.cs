@@ -15,9 +15,9 @@ namespace CadastroLivroApi.Controllers.Extensoes
             return new LivroDO
             {
                 Id = obj.Id,
-                Nome = obj.Nome,
-                Autor = obj.Autor,
-                Genero = obj.Genero
+                Titulo = obj.Titulo,
+                Genero = obj.Genero,
+                Valor = obj.Valor
             };
         }
 
@@ -44,9 +44,9 @@ namespace CadastroLivroApi.Controllers.Extensoes
             if (obj == null)
                 obj = new Livro();
 
-            obj.Nome = objDO.Nome;
-            obj.Autor = objDO.Autor;
+            obj.Titulo = objDO.Titulo;
             obj.Genero = objDO.Genero;
+            obj.Valor = objDO.Valor;
 
             return obj;
         }
@@ -61,5 +61,55 @@ namespace CadastroLivroApi.Controllers.Extensoes
             return lista;
         }
 
+        public static LivroAutoresDO ToDO(this LivroAutores obj)
+        {
+            return new LivroAutoresDO
+            {
+                Id = obj.Id,
+                IdLivro = obj.IdLivro,
+                Nome = obj.Nome,
+                Sobrenome = obj.Sobrenome
+            };
+        }
+
+        public static IList<LivroAutoresDO> ToDO(this IList<LivroAutores> listaModels)
+        {
+            var lista = new List<LivroAutoresDO>();
+
+            foreach (var obj in listaModels)
+                lista.Add(ToDO(obj));
+
+            return lista;
+        }
+
+        public static async Task<LivroAutores> ToModel(this LivroAutoresDO objDO)
+        {
+            LivroAutores? obj = null;
+
+            if (objDO.Id != null)
+            {
+                var dao = new LivroAutoresDAO();
+                obj = await dao.RetornarPorIdAsync(objDO.Id);
+            }
+
+            if (obj == null)
+                obj = new LivroAutores();
+
+            obj.IdLivro = objDO.IdLivro;
+            obj.Nome = objDO.Nome;
+            obj.Sobrenome = objDO.Sobrenome ?? "";
+
+            return obj;
+        }
+
+        public static async Task<IList<LivroAutores>> ToModel(this IList<LivroAutoresDO> listaDO)
+        {
+            var lista = new List<LivroAutores>();
+
+            foreach (var obj in listaDO)
+                lista.Add(await ToModel(obj));
+
+            return lista;
+        }
     }
 }

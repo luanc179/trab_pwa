@@ -18,25 +18,26 @@ else
     <ValidationSummary />
         <div>
             <div>
-                <label class="form-label">Nome</label>
-                <input class="form-control" @bind="@obj.Nome" />
-                <ValidationMessage For="() => obj.Nome" />
-            </div>
-            <div>
-                <label class="form-label">Autor</label>
-                <input class="form-control" @bind="@obj.Autor" />
-                <ValidationMessage For="() => obj.Autor" />
+                <label class="form-label">Titulo</label>
+                <input class="form-control" @bind="@obj.Titulo" />
+                <ValidationMessage For="() => obj.Titulo" />
             </div>
             <div>
                 <label class="form-label">Genero</label>
                 <input class="form-control" @bind="@obj.Genero" />
                 <ValidationMessage For="() => obj.Genero" />
             </div>
+            <div>
+                <label class="form-label">Valor</label>
+                <input class="form-control" @bind="@obj.Valor" />
+                <ValidationMessage For="() => obj.Valor" />
+            </div>
             <div class="mt-2">
                 <button class="btn btn-success" type="submit">Gravar</button>
                 <a class="ml-1 btn btn-secondary" href="./livros">Voltar</a>
             </div>
 
+            <CadastroLivroAutoresManutencao IdMestre=@Id />
 
             <Imagem Entidade="livro" Id=@Id />
             
@@ -50,7 +51,7 @@ else
         obj = await api.RetornarPorIdAsync(Id);
     }
 
-    private AcessoApi<LivroDO> api = new AcessoApi<LivroDO>("api/livro");
+    private AcessoApi<LivroDO> api = new AcessoApi<LivroDO>("api/Livro");
 
     private LivroDO? obj = null;
 

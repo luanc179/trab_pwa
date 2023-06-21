@@ -1,3 +1,9 @@
+D:\ADS\3º PERIODO\PWA\2 Bimestre\trabalho\trab_pwa\CadastroLivroWasm\obj\Debug\net6.0\CadastroLivroWasm.csproj.AssemblyReference.cache
+D:\ADS\3º PERIODO\PWA\2 Bimestre\trabalho\trab_pwa\CadastroLivroWasm\obj\Debug\net6.0\CadastroLivroWasm.GeneratedMSBuildEditorConfig.editorconfig
+D:\ADS\3º PERIODO\PWA\2 Bimestre\trabalho\trab_pwa\CadastroLivroWasm\obj\Debug\net6.0\CadastroLivroWasm.AssemblyInfoInputs.cache
+D:\ADS\3º PERIODO\PWA\2 Bimestre\trabalho\trab_pwa\CadastroLivroWasm\obj\Debug\net6.0\CadastroLivroWasm.AssemblyInfo.cs
+D:\ADS\3º PERIODO\PWA\2 Bimestre\trabalho\trab_pwa\CadastroLivroWasm\obj\Debug\net6.0\CadastroLivroWasm.csproj.CoreCompileInputs.cache
+D:\ADS\3º PERIODO\PWA\2 Bimestre\trabalho\trab_pwa\CadastroLivroWasm\obj\Debug\net6.0\CadastroLivroWasm.MvcApplicationPartsAssemblyInfo.cache
 D:\ADS\3º PERIODO\PWA\2 Bimestre\trabalho\trab_pwa\CadastroLivroWasm\bin\Debug\net6.0\wwwroot\_framework\blazor.webassembly.js
 D:\ADS\3º PERIODO\PWA\2 Bimestre\trabalho\trab_pwa\CadastroLivroWasm\bin\Debug\net6.0\wwwroot\_framework\dotnet.6.0.14.umf1zjpymq.js
 D:\ADS\3º PERIODO\PWA\2 Bimestre\trabalho\trab_pwa\CadastroLivroWasm\bin\Debug\net6.0\wwwroot\_framework\dotnet.timezones.blat
@@ -602,12 +608,6 @@ D:\ADS\3º PERIODO\PWA\2 Bimestre\trabalho\trab_pwa\CadastroLivroWasm\bin\Debug\
 D:\ADS\3º PERIODO\PWA\2 Bimestre\trabalho\trab_pwa\CadastroLivroWasm\bin\Debug\net6.0\icudt_no_CJK.dat
 D:\ADS\3º PERIODO\PWA\2 Bimestre\trabalho\trab_pwa\CadastroLivroWasm\bin\Debug\net6.0\CadastroLivroDll.dll
 D:\ADS\3º PERIODO\PWA\2 Bimestre\trabalho\trab_pwa\CadastroLivroWasm\bin\Debug\net6.0\CadastroLivroDll.pdb
-D:\ADS\3º PERIODO\PWA\2 Bimestre\trabalho\trab_pwa\CadastroLivroWasm\obj\Debug\net6.0\CadastroLivroWasm.csproj.AssemblyReference.cache
-D:\ADS\3º PERIODO\PWA\2 Bimestre\trabalho\trab_pwa\CadastroLivroWasm\obj\Debug\net6.0\CadastroLivroWasm.GeneratedMSBuildEditorConfig.editorconfig
-D:\ADS\3º PERIODO\PWA\2 Bimestre\trabalho\trab_pwa\CadastroLivroWasm\obj\Debug\net6.0\CadastroLivroWasm.AssemblyInfoInputs.cache
-D:\ADS\3º PERIODO\PWA\2 Bimestre\trabalho\trab_pwa\CadastroLivroWasm\obj\Debug\net6.0\CadastroLivroWasm.AssemblyInfo.cs
-D:\ADS\3º PERIODO\PWA\2 Bimestre\trabalho\trab_pwa\CadastroLivroWasm\obj\Debug\net6.0\CadastroLivroWasm.csproj.CoreCompileInputs.cache
-D:\ADS\3º PERIODO\PWA\2 Bimestre\trabalho\trab_pwa\CadastroLivroWasm\obj\Debug\net6.0\CadastroLivroWasm.MvcApplicationPartsAssemblyInfo.cache
 D:\ADS\3º PERIODO\PWA\2 Bimestre\trabalho\trab_pwa\CadastroLivroWasm\obj\Debug\net6.0\build-gz\2a+Q+fgm.gz
 D:\ADS\3º PERIODO\PWA\2 Bimestre\trabalho\trab_pwa\CadastroLivroWasm\obj\Debug\net6.0\build-gz\rEluZMEC.gz
 D:\ADS\3º PERIODO\PWA\2 Bimestre\trabalho\trab_pwa\CadastroLivroWasm\obj\Debug\net6.0\build-gz\43zWmApP.gz

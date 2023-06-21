@@ -1,0 +1,97 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\ADS\\3º PERIODO\\PWA\\2 Bimestre\\trabalho\\trab_pwa\\CadastroLivroWasm\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "D:\\ADS\\3º PERIODO\\PWA\\2 Bimestre\\trabalho\\trab_pwa\\CadastroLivroWasm\\obj\\Debug\\net7.0\\build-gz\\xaSIAR0P.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "D:\\ADS\\3º PERIODO\\PWA\\2 Bimestre\\trabalho\\trab_pwa\\CadastroLivroWasm\\obj\\Debug\\net7.0\\scopedcss\\bundle\\CadastroLivroWasm.styles.css",
+      "PackagePath": "staticwebassets\\CadastroLivroWasm.styles.css"
+    },
+    {
+      "Id": "D:\\ADS\\3º PERIODO\\PWA\\2 Bimestre\\trabalho\\trab_pwa\\CadastroLivroWasm\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "D:\\ADS\\3º PERIODO\\PWA\\2 Bimestre\\trabalho\\trab_pwa\\CadastroLivroWasm\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\ADS\\3º PERIODO\\PWA\\2 Bimestre\\trabalho\\trab_pwa\\CadastroLivroWasm\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\ADS\\3º PERIODO\\PWA\\2 Bimestre\\trabalho\\trab_pwa\\CadastroLivroWasm\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "D:\\ADS\\3º PERIODO\\PWA\\2 Bimestre\\trabalho\\trab_pwa\\CadastroLivroWasm\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "D:\\ADS\\3º PERIODO\\PWA\\2 Bimestre\\trabalho\\trab_pwa\\CadastroLivroWasm\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "D:\\ADS\\3º PERIODO\\PWA\\2 Bimestre\\trabalho\\trab_pwa\\CadastroLivroWasm\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\ADS\\3º PERIODO\\PWA\\2 Bimestre\\trabalho\\trab_pwa\\CadastroLivroWasm\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "D:\\ADS\\3º PERIODO\\PWA\\2 Bimestre\\trabalho\\trab_pwa\\CadastroLivroWasm\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "D:\\ADS\\3º PERIODO\\PWA\\2 Bimestre\\trabalho\\trab_pwa\\CadastroLivroWasm\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "D:\\ADS\\3º PERIODO\\PWA\\2 Bimestre\\trabalho\\trab_pwa\\CadastroLivroWasm\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "D:\\ADS\\3º PERIODO\\PWA\\2 Bimestre\\trabalho\\trab_pwa\\CadastroLivroWasm\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "D:\\ADS\\3º PERIODO\\PWA\\2 Bimestre\\trabalho\\trab_pwa\\CadastroLivroWasm\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\ADS\\3º PERIODO\\PWA\\2 Bimestre\\trabalho\\trab_pwa\\CadastroLivroWasm\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "D:\\ADS\\3º PERIODO\\PWA\\2 Bimestre\\trabalho\\trab_pwa\\CadastroLivroWasm\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "D:\\ADS\\3º PERIODO\\PWA\\2 Bimestre\\trabalho\\trab_pwa\\CadastroLivroWasm\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.CadastroLivroWasm.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.CadastroLivroWasm.props",
+      "PackagePath": "build\\CadastroLivroWasm.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.CadastroLivroWasm.props",
+      "PackagePath": "buildMultiTargeting\\CadastroLivroWasm.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.CadastroLivroWasm.props",
+      "PackagePath": "buildTransitive\\CadastroLivroWasm.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

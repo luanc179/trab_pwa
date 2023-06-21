@@ -1,0 +1,113 @@
+﻿@*@page "/livro_alterar/{Id}"*@
+@using CadastroLivrosWasm.Helpers;
+@using CadastroLivroDll.DOs;
+@inject NavigationManager NavigationManager
+
+
+<hr />
+<h3>Autores</h3>
+
+@if (objetos == null)
+{
+    <p><em>Carregando...</em></p>
+}
+else
+{
+    <EditForm Model="@novoAutores" OnValidSubmit="@Inserir">
+    <ValidationSummary />
+        <div class="row">
+            <div class="col">
+                <label class="form-label">Nome</label>
+                <input class="form-control" @bind="@novoAutores.Nome" />
+                <ValidationMessage For="() => novoAutores.Nome" />
+            </div>
+            <div class="col">
+                <label class="form-label">Sobrenome</label>
+                <input type="text" class="form-control" @bind="@novoAutores.Sobrenome" />
+                <ValidationMessage For="() => novoAutores.Sobrenome" />
+            </div>
+            <div class="col">
+                <br />
+                <button class="btn btn-success mt-2" type="submit">Inserir</button>
+            </div>
+        </div>
+    </EditForm>
+
+    <EditForm Model="@novoAutores" OnValidSubmit="@Atualizar">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Sobrenome</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var obj in objetos)
+                {
+                    <tr>
+                        <td>@obj.Nome</td>
+                        <td>@obj.Sobrenome</td>
+                        <td>
+                            @if (obj.Id != null)
+                            {
+                                <button class="btn btn-danger" @onclick="() => ExcluirDetalhe(obj.Id)">
+                                    Excluir
+                                </button>
+                            }
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </EditForm>
+    <hr />
+}
+
+@code {
+    protected async override Task OnInitializedAsync()
+    {        
+        objetos = await api.RetornarPorIdMestreAsync(IdMestre);
+    }
+
+    private AcessoApi<LivroAutoresDO> api = new AcessoApi<LivroAutoresDO>("api/LivroAutores");
+
+    private IList<LivroAutoresDO>? objetos = null;
+
+    public LivroAutoresDO novoAutores = new LivroAutoresDO();
+
+    [Parameter]
+    public string IdMestre { get; set; } = "";
+
+    private async void Atualizar()
+    {
+        //NavigationManager.NavigateTo("livros");
+        //NavigationManager.NavigateTo($"livro_alterar/{IdMestre}", true);
+        objetos = await api.RetornarPorIdMestreAsync(IdMestre);
+
+        this.StateHasChanged();
+    }
+
+    private async void Inserir()
+    {
+        novoAutores.IdLivro = IdMestre;
+
+        await api.InserirAsync(novoAutores);
+
+        objetos = await api.RetornarPorIdMestreAsync(IdMestre);
+
+        novoAutores = new LivroAutoresDO();
+
+        this.StateHasChanged();
+    }
+
+    private async void ExcluirDetalhe(string id)
+    {
+        if (id != null)
+        {
+            await api.ExcluirAsync(id);
+
+            Atualizar();
+        }
+    }
+}

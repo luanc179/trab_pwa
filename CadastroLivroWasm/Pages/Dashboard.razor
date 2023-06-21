@@ -1,0 +1,99 @@
+﻿@page "/dashboard"
+@using CadastroLivrosWasm.Helpers;
+@using CadastroLivrosWasm.Models;
+@using CadastroLivroDll.DOs;
+
+<PageTitle>Cadastro de Livros</PageTitle>
+
+<h1>Livros</h1>
+
+@if (objetos == null)
+{
+    <p><em>Carregando...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Quantidade</th>
+                <th>Media de preço</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+                <tr>
+                    <td>@QunatidadeLivros().ToString()</td>
+                    <td>@MediaValor().ToString("N2")</td>
+                </tr>
+        </tbody>
+    </table>
+}
+
+@code {
+    protected async override Task OnInitializedAsync()
+    {        
+        objetos = await api.RetornarTodosAsync();
+    }
+
+    private AcessoApi<LivroDO> api = new AcessoApi<LivroDO>("api/Livro");
+
+    private IList<LivroDO>? objetos;
+    
+    private LivroDO objetoAtual = new LivroDO();
+
+    private int QunatidadeLivros(){
+        int cont = 0;
+        foreach (var objeto in objetos)
+        {
+            if(objeto != null)
+            cont ++;
+        }
+        return cont;
+    }
+    private double MediaValor(){
+        double vltotal = 0;
+        int cont = 0; 
+        foreach (var objeto in objetos)
+        {
+            if(objeto != null){
+            vltotal += objeto.Valor;
+            cont ++;
+            }
+        }
+        double media = vltotal / cont;
+        return media;
+    }
+    private void Alterar(LivroDO objeto)
+    {
+        objetoAtual = new LivroDO 
+        {
+            Id = objeto.Id, 
+            Titulo = objeto.Titulo, 
+            Genero = objeto.Genero,
+            Valor = objeto.Valor
+        };
+    }
+
+    private async void Excluir(string? id)
+    {
+        if (id != null)
+        {
+            await api.ExcluirAsync(id);
+            objetos = await api.RetornarTodosAsync();
+            this.StateHasChanged();
+        }
+    }
+
+    private async void Gravar()
+    {
+        if (objetoAtual.Id == null)
+            await api.InserirAsync(objetoAtual);
+        else
+            await api.AlterarAsync(objetoAtual);
+        
+        objetoAtual = new LivroDO();
+        objetos = await api.RetornarTodosAsync();
+        this.StateHasChanged();
+    }
+}

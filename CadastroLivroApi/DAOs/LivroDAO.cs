@@ -8,6 +8,6 @@ namespace CadastroLivroApi.DAOs
 {
     public class LivroDAO : AutoDAO<Livro>
     {
-        protected override string Tabela => "Livro";
+        protected override string Tabela => "livro";
     }
 }

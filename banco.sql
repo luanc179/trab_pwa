@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 8.0.32, for Win64 (x86_64)
 --
--- Host: localhost    Database: pwa
+-- Host: localhost    Nomebase: pwa
 -- ------------------------------------------------------
 -- Server version	8.0.32
 
@@ -24,7 +24,7 @@ DROP TABLE IF EXISTS `livro`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `livro` (
   `id` varchar(45) NOT NULL,
-  `nome` varchar(45) DEFAULT NULL,
+  `titulo` varchar(45) DEFAULT NULL,
   `autor` varchar(45) DEFAULT NULL,
   `genero` varchar(45) DEFAULT NULL,
   PRIMARY KEY (`id`)

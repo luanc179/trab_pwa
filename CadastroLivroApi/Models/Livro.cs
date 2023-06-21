@@ -7,10 +7,10 @@ namespace CadastroLivroApi.Models
 {
     public class Livro : BaseModel
     {
-        public string Nome { get; set; } = "";
-
-        public string? Autor { get; set; }
+        public string Titulo { get; set; } = "";
 
         public string? Genero { get; set; }
+
+        public double Valor { get; set; }
     }
 }

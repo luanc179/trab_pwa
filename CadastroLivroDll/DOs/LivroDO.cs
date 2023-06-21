@@ -10,15 +10,14 @@ namespace CadastroLivroDll.DOs
     {
 
         [Required]
-        [StringLength(100, ErrorMessage = "O nome do livro deve ter no máximo 100 caracteres.")]
-        public string Nome { get; set; } = "";
+        [StringLength(100, ErrorMessage = "O titulo deve ter no máximo 100 caracteres.")]
+        public string Titulo { get; set; } = "";
         
-        [Required]
-        [StringLength(100, ErrorMessage = "O nome do autor deve ter no máximo 100 caracteres.")]
-        public string? Autor { get; set; }
-
-        [Required]
-        [StringLength(100, ErrorMessage = "O nome do genero deve ter no máximo 100 caracteres.")]
+        [StringLength(100, ErrorMessage = "O genero deve ter no máximo 100 caracteres.")]
         public string? Genero { get; set; }
+
+        [Range(20, 500,
+        ErrorMessage = "O valor deve estar entre 20 e 500.")]
+        public double Valor { get; set; }
     }
 }

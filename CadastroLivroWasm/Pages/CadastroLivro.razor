@@ -17,9 +17,9 @@ else
     <table class="table">
         <thead>
             <tr>
-                <th>Nome</th>
-                <th>Autor</th>
+                <th>Titulo</th>
                 <th>Genero</th>
+                <th>Valor</th>
                 <th></th>
             </tr>
         </thead>
@@ -27,9 +27,9 @@ else
             @foreach (var obj in objetos)
             {
                 <tr>
-                    <td>@obj.Nome</td>
-                    <td>@obj.Autor</td>
+                    <td>@obj.Titulo</td>
                     <td>@obj.Genero</td>
+                    <td>@obj.Valor.ToString("N2")</td>
                     <td>
                         <a class="btn btn-warning" href=@($"./livro_alterar/{obj.Id}")>Alterar</a>
                         <button class="btn btn-danger" @onclick="() => Excluir(obj.Id)">
@@ -48,7 +48,7 @@ else
         objetos = await api.RetornarTodosAsync();
     }
 
-    private AcessoApi<LivroDO> api = new AcessoApi<LivroDO>("api/livro");
+    private AcessoApi<LivroDO> api = new AcessoApi<LivroDO>("api/Livro");
 
     private IList<LivroDO>? objetos;
     
@@ -59,9 +59,9 @@ else
         objetoAtual = new LivroDO 
         {
             Id = objeto.Id, 
-            Nome = objeto.Nome, 
-            Autor = objeto.Autor,
-            Genero = objeto.Genero
+            Titulo = objeto.Titulo, 
+            Genero = objeto.Genero,
+            Valor = objeto.Valor
         };
     }
 
