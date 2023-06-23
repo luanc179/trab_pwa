@@ -9,65 +9,65 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = CadastroLivroWasm
 build_property.RootNamespace = CadastroLivroWasm
-build_property.ProjectDir = d:\ADS\3º PERIODO\PWA\2 Bimestre\trabalho\trab_pwa\CadastroLivroWasm\
+build_property.ProjectDir = D:\ADS\3º PERIODO\PWA\2 Bimestre\trabalho\trab_pwa\CadastroLivroWasm\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = d:\ADS\3º PERIODO\PWA\2 Bimestre\trabalho\trab_pwa\CadastroLivroWasm
+build_property.MSBuildProjectDirectory = D:\ADS\3º PERIODO\PWA\2 Bimestre\trabalho\trab_pwa\CadastroLivroWasm
 build_property._RazorSourceGeneratorDebug = 
 
-[d:/ADS/3º PERIODO/PWA/2 Bimestre/trabalho/trab_pwa/CadastroLivroWasm/App.razor]
+[D:/ADS/3º PERIODO/PWA/2 Bimestre/trabalho/trab_pwa/CadastroLivroWasm/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/ADS/3º PERIODO/PWA/2 Bimestre/trabalho/trab_pwa/CadastroLivroWasm/Pages/CadastroLivro.razor]
+[D:/ADS/3º PERIODO/PWA/2 Bimestre/trabalho/trab_pwa/CadastroLivroWasm/Pages/CadastroLivro.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FkYXN0cm9MaXZyby5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/ADS/3º PERIODO/PWA/2 Bimestre/trabalho/trab_pwa/CadastroLivroWasm/Pages/CadastroLivroAlterar.razor]
+[D:/ADS/3º PERIODO/PWA/2 Bimestre/trabalho/trab_pwa/CadastroLivroWasm/Pages/CadastroLivroAlterar.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FkYXN0cm9MaXZyb0FsdGVyYXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/ADS/3º PERIODO/PWA/2 Bimestre/trabalho/trab_pwa/CadastroLivroWasm/Pages/CadastroLivroAutoresManutencao.razor]
+[D:/ADS/3º PERIODO/PWA/2 Bimestre/trabalho/trab_pwa/CadastroLivroWasm/Pages/CadastroLivroAutoresManutencao.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FkYXN0cm9MaXZyb0F1dG9yZXNNYW51dGVuY2FvLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/ADS/3º PERIODO/PWA/2 Bimestre/trabalho/trab_pwa/CadastroLivroWasm/Pages/CadastroLivroIncluir.razor]
+[D:/ADS/3º PERIODO/PWA/2 Bimestre/trabalho/trab_pwa/CadastroLivroWasm/Pages/CadastroLivroIncluir.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FkYXN0cm9MaXZyb0luY2x1aXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/ADS/3º PERIODO/PWA/2 Bimestre/trabalho/trab_pwa/CadastroLivroWasm/Pages/Counter.razor]
+[D:/ADS/3º PERIODO/PWA/2 Bimestre/trabalho/trab_pwa/CadastroLivroWasm/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/ADS/3º PERIODO/PWA/2 Bimestre/trabalho/trab_pwa/CadastroLivroWasm/Pages/Dashboard.razor]
+[D:/ADS/3º PERIODO/PWA/2 Bimestre/trabalho/trab_pwa/CadastroLivroWasm/Pages/Dashboard.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFzaGJvYXJkLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/ADS/3º PERIODO/PWA/2 Bimestre/trabalho/trab_pwa/CadastroLivroWasm/Pages/FetchData.razor]
+[D:/ADS/3º PERIODO/PWA/2 Bimestre/trabalho/trab_pwa/CadastroLivroWasm/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/ADS/3º PERIODO/PWA/2 Bimestre/trabalho/trab_pwa/CadastroLivroWasm/Pages/Imagem.razor]
+[D:/ADS/3º PERIODO/PWA/2 Bimestre/trabalho/trab_pwa/CadastroLivroWasm/Pages/Imagem.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW1hZ2VtLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/ADS/3º PERIODO/PWA/2 Bimestre/trabalho/trab_pwa/CadastroLivroWasm/Pages/Index.razor]
+[D:/ADS/3º PERIODO/PWA/2 Bimestre/trabalho/trab_pwa/CadastroLivroWasm/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/ADS/3º PERIODO/PWA/2 Bimestre/trabalho/trab_pwa/CadastroLivroWasm/Shared/SurveyPrompt.razor]
+[D:/ADS/3º PERIODO/PWA/2 Bimestre/trabalho/trab_pwa/CadastroLivroWasm/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/ADS/3º PERIODO/PWA/2 Bimestre/trabalho/trab_pwa/CadastroLivroWasm/_Imports.razor]
+[D:/ADS/3º PERIODO/PWA/2 Bimestre/trabalho/trab_pwa/CadastroLivroWasm/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/ADS/3º PERIODO/PWA/2 Bimestre/trabalho/trab_pwa/CadastroLivroWasm/Shared/MainLayout.razor]
+[D:/ADS/3º PERIODO/PWA/2 Bimestre/trabalho/trab_pwa/CadastroLivroWasm/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-xcwah04chn
 
-[d:/ADS/3º PERIODO/PWA/2 Bimestre/trabalho/trab_pwa/CadastroLivroWasm/Shared/NavMenu.razor]
+[D:/ADS/3º PERIODO/PWA/2 Bimestre/trabalho/trab_pwa/CadastroLivroWasm/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-1uprkmd9xb

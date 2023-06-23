@@ -64,36 +64,5 @@ else
         double media = vltotal / cont;
         return media;
     }
-    private void Alterar(LivroDO objeto)
-    {
-        objetoAtual = new LivroDO 
-        {
-            Id = objeto.Id, 
-            Titulo = objeto.Titulo, 
-            Genero = objeto.Genero,
-            Valor = objeto.Valor
-        };
-    }
-
-    private async void Excluir(string? id)
-    {
-        if (id != null)
-        {
-            await api.ExcluirAsync(id);
-            objetos = await api.RetornarTodosAsync();
-            this.StateHasChanged();
-        }
-    }
-
-    private async void Gravar()
-    {
-        if (objetoAtual.Id == null)
-            await api.InserirAsync(objetoAtual);
-        else
-            await api.AlterarAsync(objetoAtual);
-        
-        objetoAtual = new LivroDO();
-        objetos = await api.RetornarTodosAsync();
-        this.StateHasChanged();
-    }
+    
 }

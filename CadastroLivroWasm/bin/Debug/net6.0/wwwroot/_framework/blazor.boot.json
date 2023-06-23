@@ -197,14 +197,14 @@
       "netstandard.dll": "sha256-6NXprR7wyUZxpdXxaSPHSoC5uOL5UCc7bsZG3TSuVxE=",
       "System.Private.CoreLib.dll": "sha256-igtwZSR0\/lrbmwL\/XiTsEkIeSL+736GHTZPReYguZCQ=",
       "CadastroLivroDll.dll": "sha256-N7FweGEoXN0TMgDea6VqSyqolfLMQd7MZhQqQk0PYhU=",
-      "CadastroLivroWasm.dll": "sha256-9Mjlvsq+OZgSF3wrc4z237cPj4T+6E1yRh5+8wveg+0="
+      "CadastroLivroWasm.dll": "sha256-mC9xRvEVgImzrswDHV4ElZFfxzr4EBEDR6eWVd3\/2So="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
       "CadastroLivroDll.pdb": "sha256-wyg6Nn2SUTTLHwjGi5rDH4XCORMeEPEcV\/iRLc9Vx\/Y=",
-      "CadastroLivroWasm.pdb": "sha256-PezWErqBPnsArkt1kDwD\/sjod8BZkvXROi0pidmGSgY="
+      "CadastroLivroWasm.pdb": "sha256-qmBgNIHMSk7eXMUKvkw0nMt4SNeRmDHcsn6Nzd\/Bu\/8="
     },
     "runtime": {
       "dotnet.6.0.14.umf1zjpymq.js": "sha256-54cJ6JdGhGbKaLWxHfRYzYbuyRq2wlK\/ZDzfSXD3FEs=",
